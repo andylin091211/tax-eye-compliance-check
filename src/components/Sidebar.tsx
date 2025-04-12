@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { 
@@ -79,7 +78,7 @@ const Sidebar = ({ isOpen, onClose }: SidebarProps) => {
         <div className="flex items-center justify-between p-4">
           <div className="flex items-center">
             <FileSpreadsheet className="h-6 w-6 text-taxeye-primary" />
-            <h2 className="ml-2 text-lg font-semibold">财税风险分析</h2>
+            <h2 className="ml-2 text-lg font-semibold">流程力财税风险</h2>
           </div>
           {isMobile && (
             <Button variant="ghost" size="icon" onClick={onClose}>

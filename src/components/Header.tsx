@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import { Bell, FileSpreadsheet, User, Menu } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -30,7 +29,7 @@ const Header = ({ toggleSidebar }: HeaderProps) => {
         <div className="flex items-center">
           <FileSpreadsheet className="h-6 w-6 text-taxeye-primary" />
           <h1 className="text-xl font-semibold ml-2 text-taxeye-primary">
-            财税风险分析系统
+            流程力财税风险分析
           </h1>
         </div>
       </div>
